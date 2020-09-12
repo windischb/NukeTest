@@ -7581,6 +7581,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.0": [
+      "Newtonsoft.Json >= 12.0.3",
       "Nuke.Common >= 0.24.11"
     ]
   },
@@ -7626,6 +7627,10 @@
     "frameworks": {
       "netcoreapp3.0": {
         "dependencies": {
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[12.0.3, )"
+          },
           "Nuke.Common": {
             "target": "Package",
             "version": "[0.24.11, )"
