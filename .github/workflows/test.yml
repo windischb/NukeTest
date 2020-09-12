@@ -41,6 +41,6 @@ jobs:
       - name: Run './build.cmd Test1'
         run: ./build.cmd Test1
       - name: secrets.GITHUB_TOKEN
-        run: echo ${{ secrets.GITHUB_TOKEN }}
+        run: ${{ secrets.GITHUB_TOKEN }}
       - name: GITHUB_TOKEN
-        run: echo ${{ GITHUB_TOKEN }}
+        run: ${{ GITHUB_TOKEN }}
