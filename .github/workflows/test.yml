@@ -29,3 +29,18 @@ jobs:
       - uses: actions/checkout@v1
       - name: Run './build.cmd Test1'
         run: ./build.cmd Test1
+      - name: secrets.GITHUB_TOKEN
+        run: echo ${{ secrets.GITHUB_TOKEN }}
+      - name: GITHUB_TOKEN
+        run: echo ${{ GITHUB_TOKEN }}
+  ubuntu-latest:
+    name: ubuntu-latest
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Run './build.cmd Test1'
+        run: ./build.cmd Test1
+      - name: secrets.GITHUB_TOKEN
+        run: echo ${{ secrets.GITHUB_TOKEN }}
+      - name: GITHUB_TOKEN
+        run: echo ${{ GITHUB_TOKEN }}

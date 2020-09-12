@@ -25,6 +25,7 @@ using JsonSerializer = System.Text.Json.JsonSerializer;
 [GitHubActions(
     "test",
     GitHubActionsImage.WindowsLatest,
+    GitHubActionsImage.UbuntuLatest,
     OnPushBranches = new []{ "master"},
     InvokedTargets = new []{ nameof(Test1)})]
 
