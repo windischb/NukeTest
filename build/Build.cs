@@ -25,7 +25,6 @@ using JsonSerializer = System.Text.Json.JsonSerializer;
 [GitHubActions(
     "test",
     GitHubActionsImage.WindowsLatest,
-    GitHubActionsImage.UbuntuLatest,
     OnPushBranches = new []{ "master"},
     InvokedTargets = new []{ nameof(Test1)})]
 
@@ -48,6 +47,8 @@ class Build : NukeBuild
 
     [CI] readonly GitHubActions GitHubActions;
 
+    [Parameter("GitHub Token")] public readonly string GitHubToken;
+
     AbsolutePath SourceDirectory => RootDirectory / "source";
     AbsolutePath TestsDirectory => RootDirectory / "tests";
     AbsolutePath OutputDirectory => RootDirectory / "output";
@@ -58,6 +59,10 @@ class Build : NukeBuild
 
             var json = JsonSerializer.Serialize(GitHubActions, new JsonSerializerOptions() {WriteIndented = true});
             Logger.Info(json);
+
+            Logger.Info("GithubTOKEN");
+            Logger.Info(GitHubToken);
+
         });
 
    
