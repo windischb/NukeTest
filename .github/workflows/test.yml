@@ -31,7 +31,7 @@ jobs:
         run: ./build.cmd Test1
       - name: Versioning
         run: |
-          echo "$GITHUB_TOKEN"
+          echo %GITHUB_TOKEN%
         env:
           NODE_AUTH_TOKEN: ${{secrets.GH_PACKAGES_TOKEN}}
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
