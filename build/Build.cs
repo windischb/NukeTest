@@ -26,7 +26,9 @@ using JsonSerializer = System.Text.Json.JsonSerializer;
     "test",
     GitHubActionsImage.WindowsLatest,
     OnPushBranches = new []{ "master"},
-    InvokedTargets = new []{ nameof(Test1)})]
+    InvokedTargets = new []{ nameof(Test1)},
+    ImportGitHubTokenAs = nameof(GitHubToken)
+    )]
 
 class Build : NukeBuild
 {
