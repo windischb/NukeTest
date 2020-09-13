@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "q5sbrVAHn+kQ1sydl48Fou8AOgq4pdDTYpeM9x91ynHFIBNN6zrFlUpkK9zV7CG4Be5QXi9i+NqBQ5bpXnSGFA==",
+  "dgSpecHash": "ij+iXk3o1x/Kdp9RQqx1czIojv5HiBLFJuRU3ws+0ykuJcJW5RxK+6QLw0SNOquvsZ4lUyHANwifwOWM6hqM/w==",
   "success": true,
   "projectFilePath": "C:\\Repos\\NukeTest\\build\\_build.csproj",
   "expectedPackageFiles": [
@@ -136,10 +136,10 @@
     "C:\\Users\\bwi\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
     "C:\\Users\\bwi\\.nuget\\packages\\yamldotnet\\8.0.0\\yamldotnet.8.0.0.nupkg.sha512",
     "C:\\Users\\bwi\\.nuget\\packages\\gitversion.tool\\5.1.1\\gitversion.tool.5.1.1.nupkg.sha512",
-    "C:\\Users\\bwi\\.nuget\\packages\\microsoft.netcore.app.ref\\3.0.0\\microsoft.netcore.app.ref.3.0.0.nupkg.sha512",
-    "C:\\Users\\bwi\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.0.0\\microsoft.windowsdesktop.app.ref.3.0.0.nupkg.sha512",
     "C:\\Users\\bwi\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
-    "C:\\Users\\bwi\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.0.3\\microsoft.netcore.app.host.win-x64.3.0.3.nupkg.sha512"
+    "C:\\Users\\bwi\\.nuget\\packages\\microsoft.netcore.app.ref\\3.0.0\\microsoft.netcore.app.ref.3.0.0.nupkg.sha512",
+    "C:\\Users\\bwi\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.0.3\\microsoft.netcore.app.host.win-x64.3.0.3.nupkg.sha512",
+    "C:\\Users\\bwi\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.0.0\\microsoft.windowsdesktop.app.ref.3.0.0.nupkg.sha512"
   ],
   "logs": []
 }
